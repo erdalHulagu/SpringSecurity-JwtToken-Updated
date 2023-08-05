@@ -1,4 +1,4 @@
-package com.erdal.security;
+package com.erdal.security.service;
 
 import java.util.Arrays;
 import java.util.Collection;
