@@ -67,7 +67,7 @@ public class SecurityConfig {
 		            .requestMatchers("/jwt/authenticate/","/users/new")
 		            .permitAll()
 		            .and()
-	                .authorizeHttpRequests().requestMatchers("/users/**")
+	                .authorizeHttpRequests().requestMatchers("/**")
 	                .authenticated().and()
 	                .sessionManagement()
 	                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
